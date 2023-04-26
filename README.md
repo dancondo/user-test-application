@@ -23,9 +23,9 @@ This is a repository with the [How-To](#how-to) and [Assumptions](#assumptions) 
 ## Assumptions
 
    ### Backend
-      1. Scoir primary database is MongoDB, so I used it as my database.
-      2. While login in, the backend should return an "success message" or "error message", which in my view are better described as an userDto with a jwt token - which may be used for the frontend for further authentication or send an error.
+   1. Scoir primary database is MongoDB, so I used it as my database.
+   2. While login in, the backend should return an "success message" or "error message", which in my view are better described as an userDto with a jwt token - which may be used for the frontend for further authentication or send an error.
    
    ### Frontend
-      1. Scoir uses Mui for its components.
-      2. Since the backend reponds with the authentication information in case of success, the frontend is responsible for any message feedback in case of success, otherwise, it will display the errors sent by the backend.
+   1. Scoir uses Mui for its components.
+   2. Since the backend reponds with the authentication information in case of success, the frontend is responsible for any message feedback in case of success, otherwise, it will display the errors sent by the backend.
